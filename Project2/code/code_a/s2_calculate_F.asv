@@ -1,0 +1,22 @@
+%The program calculate matrix F and save
+clc
+clear all
+close all
+
+load('.\coordinates_save.mat');
+Q=zeros(size(coordi))
+
+
+
+
+
+
+
+
+
+
+
+[U S V]=svd(Q);
+ [min_val,min_index]=min(diag(S(1:12,1:12)));
+ m_matrix=V(1:12,min_index);
+ save('m_matrix.mat','m_matrix');

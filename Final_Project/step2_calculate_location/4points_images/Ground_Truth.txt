@@ -1,0 +1,7 @@
+Ground Truth of Camera Location(mm)
+   X  Y   Z
+1 220  -200 210 mm    
+2 300 -120 210    mm  
+3 90   -210  250    mm
+4  550  -100  270  mm  
+6  280  -190  200  mm

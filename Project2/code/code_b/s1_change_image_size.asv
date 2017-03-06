@@ -1,0 +1,10 @@
+clc
+clear all
+close all
+
+imgname1='.\image1.JPG';
+imgname2='.\image2.JPG';
+myimg1=imread(imgname2);
+myimg2=imread(imgname1);
+
+myimg1_left=resize(myimg1,0.2);

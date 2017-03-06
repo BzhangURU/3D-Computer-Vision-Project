@@ -1,0 +1,25 @@
+clc
+clear all
+close all
+
+
+imgname1='.\myimg_left.JPG';
+imgname2='.\myimg_right.JPG';
+myimg_l=imread(imgname1);
+myimg_r=imread(imgname2);
+
+patch_size=5;
+half_size=3;
+
+disparity_x=zeros(size(myimg_l,1),size(myimg_r,2));
+
+for yy=half_size:size(myimg_l,1)-half_size
+    for xx=half_size:size(myimg_l,2)-half_size
+        bestdist=intmax;
+        for xx_find=half_size:size(myimg_l,2)-half_size
+            if(patchdist(myimg_l,myimg_r,yy,xx,xx_find,patch_size,half_size)<bestdist)
+                disparity_x(yy,xx)=xx_find-x
+            end
+        end
+    end
+end

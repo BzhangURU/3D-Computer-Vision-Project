@@ -1,0 +1,13 @@
+Folder 'step 1' is for camera calibration that has been done, do not need to run again.
+Folder 'step 2' is for location estimation.
+
+In 'step 2 'folder, 'calculate location' is by using three points and no rotation.
+'calculate location 2' is by using three points and rotation.
+'calculate location 4 points version' is by using four points and rotation
+
+ 'calculate location 2' has precise results.
+
+'demo' is also by using three points and rotation, and doesn't need input.
+
+
+While running the program, you first need to click points (0,0,0),(r,0,0),(0,r,0) (or (0,0,0),(r,0,0),(0,r,0),((0,0,r)))in image.
