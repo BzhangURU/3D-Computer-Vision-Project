@@ -10,3 +10,5 @@ Project2: Epipolar geometry from F-matrix, Dense distance map from dense dispari
 Project3: Photometric stereo/Shape from shading, shape from shading from real images
 
 Project4: Optical flow
+
+Final project: Estimation of single camera location
